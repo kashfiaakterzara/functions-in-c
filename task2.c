@@ -7,7 +7,7 @@ int id, age, credit;
 double cgpa;
 
 printf("Enter Student ID Age Credits CGPA: ");
-scanf("%d %d %lf %d", &id, &age, &credit, &cgpa);
+scanf("%d %d %d %lf", &id, &age, &credit, &cgpa);
 print_student_profile(id, age, credit, cgpa);
 
 return 0;
